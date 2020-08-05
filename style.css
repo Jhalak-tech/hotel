@@ -1,0 +1,76 @@
+.adiv{
+    background-color: aqua;
+    font-size: 1.5cm ;
+    color: blue;
+    text-align: center;
+    text-shadow: 0 3px 5px chartreuse;
+}
+.bdiv{
+    font-size: 0.5cm;
+    color: crimson;
+    text-align: center;
+    animation: na 1s infinite;
+}
+@keyframes na{
+    from {background-color: plum;}
+    to {background-color: rgb(122, 166, 248);}
+}
+.e{
+    background-image: repeating-linear-gradient(white,violet);
+    padding: 5px;
+
+    }
+img:hover{
+    box-shadow: 0 0 12px 3px rgb(0, 255, 13);
+}
+body{
+    background-image: url(Cool-Nature-Background-Images-4523x2590-620x355.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.you{
+    height:70%;
+    width: 80%;
+    background-color: rgb(190, 109, 248,0.7);
+    border-radius: 15px / 15px;
+    box-shadow: 0 0 12px 14px green;
+    caption-side: initial;
+    border-style: groove;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 2cm;
+    padding-top: 2cm;
+    position: relative;
+    left: 10%;
+}
+.p{
+    background-color: rgb(177, 162, 247);
+    text-shadow: 0 0 2px 3px rgb(0, 255, 13);
+    border-radius: 3em 2em 5em / 4em 3em;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    box-shadow: 0 0 12px 14px green;
+}
+.f{
+    background-color: rgb(189, 155, 252,0.7) ;
+    padding: 1.5cm;
+    box-shadow: 0 0 0.5cm 0.5cm rgb(3, 78, 7);
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+}
+.r{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 5cm;
+    background-color: rgb(170, 64, 247,0.7);
+    padding: 1cm;
+    box-shadow:  0 0 0.5cm 0.5cm rgb(3, 78, 7);
+}
+
+
